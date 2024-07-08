@@ -26,7 +26,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install jupyterlite jupyterlab-open-url-parameter
 
-    - name: Build JupyterLite
+    - name: Build JupyterLite pray
       run: |
         jupyter lite init
         jupyter lite build
